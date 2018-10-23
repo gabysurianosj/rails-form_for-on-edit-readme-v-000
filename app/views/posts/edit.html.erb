@@ -2,7 +2,7 @@
 
 <%= form_for(@post) do |f| %>
   <label>Post title:</label><br>
-  <%= text_field_tag :title, @post.title %><br>
+  <%= text_field_tag :title %><br>
 
   <label>Post Description</label><br>
   <%= f.text_area :description, @post.description %><br>
